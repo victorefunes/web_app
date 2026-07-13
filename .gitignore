@@ -1,0 +1,20 @@
+# Raw Monte Carlo draws -- ~6GB, must never enter git.
+# Connect Cloud's git-backed publishing does not support Git LFS, and GitHub
+# rejects files >100MB, so the draws stay local. Only the small .rds outputs
+# of precompute.R get committed.
+draws/
+*.csv
+
+# DuckDB scratch
+*.duckdb
+precompute_scratch.duckdb
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+rsconnect/
+
+# OS
+.DS_Store
