@@ -22,7 +22,6 @@ library(data.table)
 library(leaflet)
 
 setwd("C:/Users/vf006/Box/premiums/NPV_sims/risk_model/app/web_app")
-rsconnect::writeManifest()
 
 `%||%` <- function(a, b) if (is.null(a)) b else a
 
