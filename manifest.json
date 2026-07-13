@@ -4,9 +4,9 @@
   "platform": "4.6.1",
   "metadata": {
     "appmode": "shiny",
-    "primary_rmd": null,
-    "primary_html": null,
-    "content_category": null,
+    "primary_rmd": {},
+    "primary_html": {},
+    "content_category": {},
     "has_parameters": false
   },
   "packages": {
@@ -528,12 +528,12 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2026-05-16 08:10:07 UTC",
-        "Built": "R 4.6.0; ; 2026-05-17 23:51:04 UTC; windows",
+        "Built": "R 4.6.1; ; 2026-07-11 03:23:23 UTC; windows",
         "RemoteType": "standard",
         "RemotePkgRef": "bslib",
         "RemoteRef": "bslib",
         "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "0.11.0"
+        "RemoteSha.Version": "0.11.0"
       }
     },
     "cachem": {
@@ -982,13 +982,13 @@
         "Maintainer": "Tyson Barrett <t.barrett88@gmail.com>",
         "Repository": "CRAN",
         "Date/Publication": "2026-05-06 05:10:20 UTC",
-        "Built": "R 4.6.0; x86_64-w64-mingw32; 2026-05-06 12:37:38 UTC; windows",
+        "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-07-11 01:46:24 UTC; windows",
         "Archs": "x64",
         "RemoteType": "standard",
         "RemotePkgRef": "data.table",
         "RemoteRef": "data.table",
         "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "1.18.4"
+        "RemoteSha.Version": "1.18.4"
       }
     },
     "dbplyr": {
@@ -1091,13 +1091,13 @@
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2026-04-03 07:30:08 UTC",
-        "Built": "R 4.5.3; x86_64-w64-mingw32; 2026-04-03 18:00:47 UTC; windows",
+        "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-07-07 03:27:17 UTC; windows",
         "Archs": "x64",
         "RemoteType": "standard",
         "RemotePkgRef": "dplyr",
         "RemoteRef": "dplyr",
         "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "1.2.1"
+        "RemoteSha.Version": "1.2.1"
       }
     },
     "dtplyr": {
@@ -1491,7 +1491,12 @@
         "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2026-04-22 09:10:03 UTC",
-        "Built": "R 4.6.0; ; 2026-04-25 14:49:25 UTC; windows"
+        "Built": "R 4.6.1; ; 2026-07-11 03:23:18 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "ggplot2",
+        "RemoteRef": "ggplot2",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha.Version": "4.0.3"
       }
     },
     "glue": {
@@ -3618,13 +3623,13 @@
         "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
         "Repository": "CRAN",
         "Date/Publication": "2026-05-06 11:10:02 UTC",
-        "Built": "R 4.6.0; x86_64-w64-mingw32; 2026-05-10 23:51:42 UTC; windows",
+        "Built": "R 4.6.1; x86_64-w64-mingw32; 2026-07-11 03:23:32 UTC; windows",
         "Archs": "x64",
         "RemoteType": "standard",
         "RemotePkgRef": "sf",
         "RemoteRef": "sf",
         "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "1.1-1"
+        "RemoteSha.Version": "1.1-1"
       }
     },
     "shiny": {
@@ -3654,7 +3659,7 @@
         "Maintainer": "Carson Sievert <carson@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2026-06-21 14:10:08 UTC",
-        "Built": "R 4.6.0; ; 2026-06-22 08:02:26 UTC; windows",
+        "Built": "R 4.6.1; ; 2026-07-11 03:44:33 UTC; windows",
         "RemoteType": "standard",
         "RemotePkgRef": "shiny",
         "RemoteRef": "shiny",
@@ -3892,43 +3897,6 @@
         "RemoteRef": "systemfonts",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemoteSha": "1.3.2"
-      }
-    },
-    "terra": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "terra",
-        "Type": "Package",
-        "Title": "Spatial Data Analysis",
-        "Version": "1.9-34",
-        "Date": "2026-06-18",
-        "Depends": "R (>= 3.5.0), methods",
-        "Suggests": "parallel, tinytest, ncdf4, sf (>= 0.9-8), igraph, deldir,\nXML, leaflet (>= 2.2.1), htmlwidgets, future, future.apply",
-        "LinkingTo": "Rcpp",
-        "Imports": "Rcpp (>= 1.0-10)",
-        "SystemRequirements": "C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>=\n4.9.3), TBB, sqlite3",
-        "Encoding": "UTF-8",
-        "Language": "en-US",
-        "Maintainer": "Robert J. Hijmans <r.hijmans@gmail.com>",
-        "Description": "Methods for spatial data analysis with vector (points, lines, polygons) and raster (grid) data. Methods for vector data include geometric operations such as intersect and buffer. Raster methods include local, focal, global, zonal and geometric operations. The predict and interpolate methods facilitate the use of regression type (interpolation, machine learning) models for spatial prediction, including with satellite remote sensing data. Processing of very large files is supported. See the manual and tutorials on <https://rspatial.org/> to get started.",
-        "License": "GPL (>= 3)",
-        "URL": "https://rspatial.org/, https://rspatial.github.io/terra/",
-        "BugReports": "https://github.com/rspatial/terra/issues",
-        "LazyLoad": "yes",
-        "Authors@R": "c(\n\tperson(\"Robert J.\", \"Hijmans\", role=c(\"cre\", \"aut\"),  \n\t\t\temail=\"r.hijmans@gmail.com\", comment=c(ORCID=\"0000-0001-5872-2872\")),\t\t\t\n    person(\"Andrew\", \"Brown\", role=\"aut\", comment=c(ORCID=\"0000-0002-4565-533X\")),\n    person(\"Márcia\", \"Barbosa\", role=\"aut\", comment=c(ORCID=\"0000-0001-8972-7713\")),\n    person(\"Krzysztof\", \"Dyba\", role=\"ctb\", comment=c(ORCID=\"0000-0002-8614-3816\")),\n    person(\"Roger\", \"Bivand\", role=\"ctb\", comment=c(ORCID=\"0000-0003-2392-6140\")),\n    person(\"Michael\", \"Chirico\", role=\"ctb\", comment=c(ORCID=\"0000-0003-0787-087X\")),\n    person(\"Emanuele\", \"Cordano\", role=\"ctb\",comment=c(ORCID=\"0000-0002-3508-5898\")),\n    person(\"Edzer\", \"Pebesma\", role=\"ctb\", comment=c(ORCID=\"0000-0001-8049-7069\")),\n    person(\"Barry\", \"Rowlingson\", role=\"ctb\", comment=c(ORCID=\"0000-0002-8586-6625\")),\n    person(\"Michael D.\", \"Sumner\", role=\"ctb\", comment=c(ORCID=\"0000-0002-2471-7511\")))",
-        "NeedsCompilation": "yes",
-        "Packaged": "2026-06-19 03:43:47 UTC; rhijm",
-        "Author": "Robert J. Hijmans [cre, aut] (ORCID:\n    <https://orcid.org/0000-0001-5872-2872>),\n  Andrew Brown [aut] (ORCID: <https://orcid.org/0000-0002-4565-533X>),\n  Márcia Barbosa [aut] (ORCID: <https://orcid.org/0000-0001-8972-7713>),\n  Krzysztof Dyba [ctb] (ORCID: <https://orcid.org/0000-0002-8614-3816>),\n  Roger Bivand [ctb] (ORCID: <https://orcid.org/0000-0003-2392-6140>),\n  Michael Chirico [ctb] (ORCID: <https://orcid.org/0000-0003-0787-087X>),\n  Emanuele Cordano [ctb] (ORCID: <https://orcid.org/0000-0002-3508-5898>),\n  Edzer Pebesma [ctb] (ORCID: <https://orcid.org/0000-0001-8049-7069>),\n  Barry Rowlingson [ctb] (ORCID: <https://orcid.org/0000-0002-8586-6625>),\n  Michael D. Sumner [ctb] (ORCID:\n    <https://orcid.org/0000-0002-2471-7511>)",
-        "Repository": "CRAN",
-        "Date/Publication": "2026-06-19 15:10:02 UTC",
-        "Built": "R 4.6.0; x86_64-w64-mingw32; 2026-06-22 08:59:50 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "terra",
-        "RemoteRef": "terra",
-        "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha.Version": "1.9-34"
       }
     },
     "textshaping": {
@@ -4694,18 +4662,33 @@
     "county_profit.rds": {
       "checksum": "66810263fb85374a8b3b9ea99e108621"
     },
+    "deploy/app.R": {
+      "checksum": "42d32a85a5f174d2e790b905e6a26c43"
+    },
+    "deploy/counties_sf.rds": {
+      "checksum": "168c712f3b46c4430603fd09f55fe7d6"
+    },
+    "deploy/county_profit.rds": {
+      "checksum": "66810263fb85374a8b3b9ea99e108621"
+    },
+    "deploy/field_coords.rds": {
+      "checksum": "8d2af58f51546e06cbefe898393ab040"
+    },
+    "deploy/tile_profit.rds": {
+      "checksum": "d3653fe1134239001b3d943fa1feebef"
+    },
+    "deps.R": {
+      "checksum": "b83fd4ed217dea5ab9826a9c69a3d365"
+    },
     "field_coords.rds": {
       "checksum": "8d2af58f51546e06cbefe898393ab040"
     },
-    "gitignore": {
-      "checksum": "b11b29abc1ff72f1a4ffdfd72c399c45"
-    },
-    "precompute.R": {
+    "scripts/precompute.R": {
       "checksum": "5480e631c1dfb9026d96753c7c082bb1"
     },
     "tile_profit.rds": {
       "checksum": "d3653fe1134239001b3d943fa1feebef"
     }
   },
-  "users": null
+  "users": {}
 }
