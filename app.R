@@ -16,7 +16,8 @@
 library(shiny)
 library(bslib)
 library(sf)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
 library(data.table)
 library(leaflet)
 
